@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/agenda-clipart-transparent-background-1.webp" type="image/x-icon">
+    <title>Agenda</title>
+    <!--Links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/animate.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!--header-->
+    <header class="pt-5">
+        <div class="container text-center overflow-hidden">
+            <div class="row justify-content-center align-items-end">
+                <div class="col-lg-2 col-md-3 col-sm-3 col-3 col-xs-12">
+                    <div class="site-logo">
+                        <img src="Images/agenda-clipart-transparent-background-1.webp">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="site-name">
+                        <h1>To Do List</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--end of header-->
+    <!--taskinput-->
+    <section class="ToDoList">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="inputfield">
+                        <button onclick="addTask()" class="border-0"><i class="fa-solid fa-circle-plus"></i></button>
+                        <input id="inputfield" class="form-control bg-transparent border-0" type="text" placeholder="Enter the task" name="" id="" maxlength="130">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--end of taskinput-->
+    <!--tasklist-->
+    <section id="listsection" class="list">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end of tasklist-->
+    <!--scripts-->
+    <script src="JS/wow.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/jquery.slim.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>
